@@ -49,7 +49,6 @@ The guidelines below ensure that Python code is readable, maintainable, and cons
     -   Class names should use `CapWords` (PascalCase).
 -   Always use [type hints](https://docs.python.org/3/library/typing.html) for function arguments and return values to improve code clarity and editor support.
 -   Docstrings and Comments:
-
     -   Every function must have a docstring that describes its purpose.
     -   Start the docstring with `"""` on a new line, write the description, and close with `"""` on a new line.
     -   Example:
@@ -61,7 +60,6 @@ The guidelines below ensure that Python code is readable, maintainable, and cons
             """
             return a + b
         ```
-
 -   Use [Ruff](https://docs.astral.sh/ruff/) to automatically format and lint your code. This ensures consistency and catches common issues early.
 -   Follow the [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html) for most conventions.
 -   Always commit a `.env.sample` file with example environment variables for your project.
