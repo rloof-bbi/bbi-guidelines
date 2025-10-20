@@ -73,7 +73,7 @@ For a productive Python development environment, install these VSCode extensions
 -   Pylance (ms-python.vscode-pylance): Fast, feature-rich language server
 -   Ruff (charliermarsh.ruff): Fast Python linter and formatter
 
-Add the following to your `settings.json` for best results:
+Add the following to your `settings.json` (`Ctrl+Shift+P` → `Preferences: Open User Settings (JSON)`) for best results:
 
 ```jsonc
 {
