@@ -23,19 +23,20 @@ After running `uv init`, a typical project structure looks like this:
 
 ```
 .
+├── .venv/                # (auto-generated) Contains packages
 ├── app/                  # Main application package
 │   └── ...
 ├── scripts/              # Utility scripts (e.g., evaluate_run.py)
 │   └── ...
 ├── .env                  # Environment variables (see .env.sample)
 ├── .env.sample           # Template for the environment variables
-├── .gitignore            # Files/folders to exclude from git, e.g. .env
-├── .python-version       # Python version for the project
+├── .gitignore            # (auto-generated) Files/folders to exclude from git, e.g. .env
+├── .python-version       # (auto-generated) Python version for the project
 ├── Dockerfile            # Containerizes the application
-├── main.py               # Entry point for the application
-├── pyproject.toml        # Project metadata and dependencies
-├── README.md             # Project documentation
-└── uv.lock               # Dependency lock file
+├── main.py               # (auto-generated) Entry point for the application
+├── pyproject.toml        # (auto-generated) Project metadata and dependencies
+├── README.md             # (auto-generated) Project documentation
+└── uv.lock               # (auto-generated) Dependency lock file
 ```
 
 ## Guidelines
